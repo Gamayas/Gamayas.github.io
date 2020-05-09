@@ -869,6 +869,10 @@
      
 
   }
+  .pro1{
+      height: max-content;
+      width: max-content;
+  }
   .pro1i{
       margin-top: -330px;
       margin-left: 700px;
@@ -882,6 +886,8 @@
 }
 .pro6{
     margin-top: -30px;
+    height: max-content;
+    width: max-content;
 }
   .pro3i{
     margin-top: -300px;
@@ -891,6 +897,8 @@
 }
 .pro3{
     margin-top: -30px;
+    height: max-content;
+    width: max-content;
 }
   .s1 img{
      cursor: pointer;
@@ -1613,12 +1621,15 @@
 .pro2{
     width: 1263px;
     margin-left: -8px;
+    height: max-content;
     background-color: rgba(159, 253, 253, 0.466);
    
 
 }
 .pro2i{
     margin-left: 100px;
+    height: max-content;
+    width: max-content;
 
    
 
@@ -1755,7 +1766,7 @@
     margin-left: 550px;
     border-radius: 5px;
     font-size:15px;
-    width: 80px;
+    width: 100px;
     letter-spacing: 1px;
     height: 30px;
     margin-top:10px;
