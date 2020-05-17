@@ -1,13 +1,16 @@
-
+.body{
+    width: 1263px;
+}
 .box{
     
     
     margin-left:-8px ;
-    width:1263px;
+    width: 1263px;
     height: 600px;;
     margin-top: -8px;
     
     }
+ 
   .bo{
       
     
@@ -21,6 +24,7 @@
             
             
 }
+
 
     .logo{
     
@@ -491,49 +495,7 @@
 
       }
 
-.address{
-    margin-top: 20px;;
-    margin-left: 150px;
-   width: max-content;
-   height: max-content;
-    
-}
-.add{
-    
-    border-bottom: 1cm;
-   border-color: white;
-}
-.contact{
 
-    margin-top: -105px;
-    margin-left: 330px;
-    width: max-content;
-    height: max-content;
-}
-.sv1{
-    margin-top: -105px;
-    margin-left: 780px;
-    height: max-content;
-    width: max-content;
-}
-.sv{
-    
-    margin-left: 650px;
-    height: max-content;
-    width: max-content;
-}
-.sv2{
-    margin-top: -110px;
-    margin-left: 850px;
-    height: max-content;
-    width: max-content;
-}
-.pr{
-    margin-left: 1030px;
-    margin-top: -142px;
-    height: max-content;
-    width: max-content;
-}
 .co{
     font-size: 16px;;
     margin-left: 100px;
@@ -2312,4 +2274,38 @@ list-style: none;
     width: 150px;
     
     
+}
+.fit{
+    margin-top: -10px;
+    height: 220px;
+}
+.fit ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.fit ul li{
+list-style: none;
+
+margin: 30px;
+}
+.fit ul li:nth-child(3){
+    margin-left: 150px;
+    
+}
+.fit ul li:nth-child(4){
+   
+}
+.jit ul{
+    display: inline-flex;
+    list-style: none;;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+.jit ul li{
+
+    width: 150px;
+    list-style: none;
+    margin: 30px;
+
 }
