@@ -1,13 +1,18 @@
 .body{
-    width: 1263px;
+    width: 100%;
 }
 .box{
     
     
-    margin-left:-8px ;
-    width: 1263px;
-    height: 600px;;
+  
+    width: 101.24%;
+    height: 150px;
+    
     margin-top: -8px;
+    background-color:rgb(3, 3, 97);
+    margin-left: -8px;
+    margin-right: 0px;
+    
     
     }
  
@@ -15,20 +20,48 @@
       
     
     
-        margin-left:-8px ;
-        width:1263px;
-        height: max-content;
-        margin-top: -8px;
+    width: 101.24%;
+    height: 150px;
+    
+    margin-top: -8px;
+    background-color:rgb(3, 3, 97);
+    margin-left: -8px;
+    margin-right: 0px;
       
         
             
             
 }
+@media only screen and (min-width:768px){
+
+        
+      
+      .hoo{
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .footer{
+          width: 100%;
+      }
+      .footer ul{
+          margin-left: 2.5%;
+          margin-right: 2.5%;
+      }
+      
+
+
+
+
+}
 
 
     .logo{
-    
-        background-color:rgb(3, 3, 97);
+        
+        margin-left: -8px;
+        width: 100%;
+        
+        
+        
     
     }
     .logo img{
@@ -127,7 +160,7 @@
         border-top: 1px solid;
         border-color: black;
         
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:  'Trebuchet MS';
         font-size: 13px;
         margin-left: -40px;
         
@@ -208,7 +241,7 @@
        margin-top: -18px;
         background-color: rgb(253, 226, 196);
         height: 320px;
-        width: 1263px;
+        width: 100%;
         
     }
     .ssc{
@@ -228,6 +261,7 @@
     }
     .ssc::-webkit-scrollbar {
         width: 25px;
+        height:3%;
        
         
       }
@@ -247,6 +281,8 @@
         background: rgb(2, 2, 117);  
         border-radius: 10px;
         cursor: pointer;
+      
+        
       }
       
       /* Handle on hover */
@@ -259,9 +295,9 @@
         margin-left: -8px;
         
          margin-top: 302px;
-        background-color: rgba(0, 255, 255, 0.26);
+         background-color: rgba(0, 255, 255, 0.26);
           height: max-content;
-          width: 1263px;
+          width:101.2%;
           padding-bottom: 50px;
           
 
@@ -358,7 +394,7 @@
         text-align: center;
         padding-top: 30px;
         font-size: 30px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Trebuchet MS';
         color: rgb(12, 25, 139);
         cursor: default;
         
@@ -409,10 +445,15 @@
     }
     .hie{
         margin-top: -70px;
+        width: 100%; 
+        align-items: center;;
+        text-align: center;;
+        margin-left: auto;
+        margin-right: auto;;
     }
     .h11t{
         height: 50px;
-        width: 1263px;
+        width: 100%;
       text-align: center;
         cursor: default;
      
@@ -422,7 +463,7 @@
    text-align: center;
     height: 100px;
     width:230px;
-    margin-left: 130px;
+    margin-left: 160px;
     margin-top:-10px;
     font-size: 15px;
     cursor: default;
@@ -434,7 +475,7 @@
     text-align: center;
     height: 100px;
     width:250px;;
-    margin-left:390px;
+    margin-left:400px;
         margin-top: -10px;
         font-size: 15px;
         cursor: default;
@@ -444,7 +485,7 @@
     text-align: center;
     height: 100px;
     width:250px;
-    margin-left:650px;
+    margin-left:670px;
       margin-top: -10px;;
         font-size: 15px;
         cursor: default;
@@ -456,7 +497,7 @@
     width:230px;;
     font-size: 15px;
    margin-top: -25px;
-    margin-left: 905px;
+    margin-left: 930px;
     cursor: default;
 }
 
@@ -469,7 +510,7 @@
     margin-left: -8px;
    position: absolute;
       height:max-content;
-      width: 1263px;
+      width: 100%;
       cursor: default;
       color: rgb(204, 204, 204);
 }
@@ -507,7 +548,9 @@
 .hoo{
     margin-top: 50px;
     margin-left:-8px ;
-    width:1263px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;;
     align-items: center;;
 }
 .abb1{
@@ -635,7 +678,7 @@
    margin-left: 30px;
    margin-bottom: 20px;
     height:300px;
-    width:1205px;
+    width: fit-content;
     
 }
 .ab3t1{
@@ -655,12 +698,16 @@
     font-size: 20px;
 }
 .slideshow-container{
-    margin-top: -446px;
-    margin-left: 25px;
-    margin-right: 0px;
+   
+
+margin: auto;
+
+
     height: 500px;
     width: 1200px;
-    background-color: black;
+   
+    
+    
    
 }
 .numbertext{
@@ -802,13 +849,13 @@
   }
   .ser{
       margin-top: 80px;
-      margin-left: 100px;
-      margin-right: 100px;
+      margin-left: auto;
+      margin-right: auto;
       margin-bottom: 30px;
      
-      width: 1060px;
+      width:fit-content;
      height: 1450px;
-       
+       align-content: center;
        background-color: #ecf0f3;
        box-shadow: 13px 13px 20px #cdced1,
        -13px -13px 20px #ffffff; 
@@ -818,11 +865,12 @@
      
   }
   .serv{
-     margin-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
    
   }
   .pro{
-    margin-top: 50px;
+   
     
     height:max-content;
      
@@ -833,17 +881,21 @@
   }
   .pro1{
       height: max-content;
-      width: max-content;
+      width:100%;
+     
+     margin-left: auto;
+     margin-right: auto;;
+  
   }
   .pro1i{
       margin-top: -330px;
-      margin-left: 700px;
+      margin-left:60%;
     
 
   }
   .pro6i{
     margin-top: -280px;
-    margin-left: 700px;
+    margin-left: 115%;
 
 }
 .pro6{
@@ -853,8 +905,9 @@
 }
   .pro3i{
     margin-top: -300px;
-    margin-left: 700px;
+    margin-left: 115%;
     padding-bottom: 40px;
+    
 
 }
 .pro3{
@@ -1136,19 +1189,20 @@
 
 
 .dig{
-    margin-top: 50px;;
+    margin-top: -30px;
     height: max-content;
 }
 
 .d1{
-    width: 1263px;
+    
+    width: 101.23%;
    margin-left: -8px;
     background-color: rgba(180, 180, 180, 0.479);
     padding-bottom: 50px;
     
 }
 .d7{
-    width: 1263px;
+    width: 101.23%;
    margin-left: -8px;
     margin-top:-30px;
     background-color: rgba(114, 238, 247, 0.404);
@@ -1156,7 +1210,7 @@
 
 }
 .d8{
-    width: 1263px;
+    width: 101.23%;
    margin-left: -8px;
     margin-top:-30px;
     background-color: rgba(140, 255, 156, 0.404);
@@ -1171,6 +1225,7 @@
      padding-bottom: 50px;
 
 }
+
 .d1t1{
     padding-top: 30px;;
     margin-top: 30px;
@@ -1178,6 +1233,9 @@
     font-size: 18px;
     color: rgb(2, 68, 131);
     cursor: default;
+    
+    
+    width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -1193,7 +1251,7 @@
 .d8t1{
     padding-top: 30px;;
     margin-top: -370px;
-    margin-left: 550px;
+    margin-left: 50%;
     font-size: 18px;
     color: rgb(2, 68, 131);
     cursor: default;
@@ -1204,7 +1262,7 @@
     margin-top: 30px;
     width: 48%;
     line-height: 1.4;
-    margin-left: 550px;
+    margin-left: 50%;
     cursor: default;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -1350,7 +1408,7 @@
     display: inline-flex;
 }
 .d11{
-    margin-left: 800px;
+    margin-left: 65%;
     margin-top: -200px;
 }
 .d4t2{
@@ -1372,17 +1430,37 @@
 }
 .d5{
     margin-top: -50px;
-    width: 1263px;
+    width: 101.23%;
    margin-left: -8px;
     background-color: beige;
     padding-bottom: 50px;
+    
+}
+.dset{
+    margin-left: auto;
+   margin-right: auto;
+   
+   
+    width: 100%;
+    
+}
+.dset ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+}
+.dset ul li{
+    margin-left: auto;
+    margin-right: auto;;
     
 }
 .d51{
     margin-top: 50px;
     width: 350px;
     height: 400px;
-    margin-left: 55px;
+    
     background-color: bisque;
     cursor: pointer;
     border-radius: 10px;
@@ -1398,10 +1476,10 @@
    
 }
 .d52{
-    margin-top: -400px;
+    margin-top: 50px;
     width: 350px;
     height: 400px;
-    margin-left: 455px;
+   
     background-color: bisque;
     cursor: pointer;
     border-radius: 10px;
@@ -1417,10 +1495,10 @@
    
 }
 .d53{
-    margin-top: -400px;
+    margin-top: 50px;
     width: 350px;
     height: 400px;
-    margin-left: 855px;
+   
     background-color: bisque;
     cursor: pointer;
     border-radius: 10px;
@@ -1430,6 +1508,7 @@
     box-shadow: 1px 1px 30px;
 }
 .d53 img{
+
     margin-top: 10px;
    margin-left: 75px;
    border-radius: 10px;
@@ -1463,10 +1542,10 @@
     
 }
 .d54{
-    margin-top: 50px;
+  
     width: 350px;
     height: 400px;
-    margin-left: 200px;
+    
     background-color: bisque;;
     cursor: pointer;
     border-radius: 10px;
@@ -1483,10 +1562,10 @@
    
 }
 .d55{
-    margin-top: -400px;
+ 
     width: 350px;
     height: 400px;
-    margin-left: 650px;
+   
     background-color:bisque;
     cursor: pointer;
     border-radius: 10px;
@@ -1504,7 +1583,7 @@
    
 }
 .d21{
-    margin-left: 800px;
+    margin-left: 65%;
     margin-top: -200px;
 }
 .d91{
@@ -1564,7 +1643,7 @@
 
 }
 .ec2{
-    width: 1263px;
+    width: 101.23%;;
     margin-left: -8px;
     background-color: rgba(159, 253, 253, 0.466);
     padding-bottom: 20px;
@@ -1581,7 +1660,7 @@
     border-radius: 20px;
 }
 .pro2{
-    width: 1263px;
+    width: 101.23%;
     margin-left: -8px;
     height: max-content;
     background-color: rgba(159, 253, 253, 0.466);
@@ -1621,7 +1700,17 @@
 .pr2t1{
     padding-top: 30px;;
     margin-top: -330px;
-    margin-left: 600px;
+    margin-left: 50%;
+    font-size: 18px;
+    color: rgb(2, 68, 131);
+    cursor: default;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+.pr22t1{
+    padding-top: 30px;;
+    margin-top: -330px;
+    margin-left: 60%;
     font-size: 18px;
     color: rgb(2, 68, 131);
     cursor: default;
@@ -1630,10 +1719,20 @@
 }
 .pr2t2{
     margin-top: 20px;
-    width: 48%;
-    line-height: 1.4;
-    margin-left: 600px;
+    width: 40%;
+    line-height: 1.4;;
+    margin-left: 50%;
     cursor: default;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pr22t2{
+    margin-top: 20px;
+    width: 40%;
+    line-height: 1.4;;
+    margin-left: 60%;
+    cursor: default;
+    
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .ou1{
@@ -1646,7 +1745,7 @@
     border-radius: 20px;
 }
 .pro4{
-    width: 1263px;
+    width: 101.23%;
    margin-left: -8px;
     margin-top:0px;
     background-color: rgba(140, 255, 156, 0.404);
@@ -1658,7 +1757,7 @@
     margin-left: 50px;
 }
 .pro5{
-    width: 1263px;
+    width: 101.23%;
    margin-left: -8px;
     margin-top:0px;
     height: 280px;
@@ -1667,11 +1766,12 @@
 
 }
 .pro5 img{
-    padding-top: 20px;
-    margin-left: 100px;
+    padding-top: 10px;
+    margin-left: 150px;
 }
 .lbi{
-    margin: 200px 200px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top:80px;
     width: 800px;
     background-color: white;
@@ -1788,9 +1888,10 @@
     width:200px ;
 }
 .login{
-    width: 1263px;
+    width: 100%;
     height: 430px;
 }
+
 .vl{
     background-color: aquamarine;
     width: 3px;
@@ -1814,8 +1915,8 @@
     
     background-color:#ecf0f3;
     width: 950px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
     height: 500px;
     align-items: center;
     border-radius: 10px;
@@ -2108,53 +2209,57 @@
     margin-top: -80px;
 }
 .mc{
-    margin-top: 50px;
+    margin-top: -30px;
 }
 .team{
-    width: 1000px;
+    width: 100%;
     height:max-content;
-    margin-left: 130px;
-    margin-right: 130px;
+    align-items: center;
+    text-align: center;;
     cursor: default;
    
    
 }
 .teamt{
     color: rgb(2, 24, 95);
+    width: 100%;
+    text-align: center;
     
 }
-.tm1{
-  
-    width: max-content;
-    height: max-content;
-    margin-left: 275px;
-    padding-top: 30px;
+.team1{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+    
 }
+.team1 ul{
+    list-style: none;
+    display: inline-flex;
+  
+    
+    
+  
+}
+.tm1{
+    margin-left: -70px;
+}
+.tm2{
+    margin-left: 130px;
+}
+
+
+
+
 .tm1 img{
     border-radius: 100px;
 }
-.tm2{
- 
-    width: max-content;
-    height: max-content;
-    margin-left: 575px;
-    margin-top: -152px;
-   
-}
+
 .tm2 img{
     border-radius: 100px;
 }
-.tm1t{
-    width: 200px;
-    margin-top: 10px;
-    margin-left: 252px;
-}
-.tm2t{
 
-    width: 200px;
-    margin-top:-35px;
-    margin-left: 555px;
-}
+
 .team2 ul{
     margin-left: -35px;
 display: inline-flex;
