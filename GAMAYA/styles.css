@@ -2217,6 +2217,7 @@ margin: auto;
     align-items: center;
     text-align: center;;
     cursor: default;
+    visibility: hidden;
    
    
 }
