@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>GAMAYAS HOME</title>
@@ -16,7 +17,7 @@
         <div class="logo">
          <a target="_self" href="Home.html"><img src="Ga.JPG" alt="not available"  ></a>
         </div>
-        <div class="barl">
+        <div class="barl" id="barl">
           
           <ul> 
 
@@ -64,7 +65,7 @@
 
               </ul>
             </div>
-          <div class="menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
+          <div class="menu" id="menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
     </div>
     <div class="slideshow-container">
 
@@ -234,7 +235,9 @@
     Email:info@gamayas.com
     </div></li></a>
     <li><div class="sv1"><b>Services</b></div><br>
-    <div class=jit> <ul><li><div class="sv">
+    <div class=jit> 
+      <ul>
+        <li><div class="sv">
     Digital Marketing <br>
     Web Devolopment<br>
     Mobile Application<br>
@@ -248,7 +251,7 @@
     IT out Sourcing<br>
     Pest Control<br>
     Recruitment<br>
-    </div></li></li></ul></div>
+    </div></li></div>
     
     <li><div class="pr"><div class="prr"><b>Products</b></div><br>
         EMS + ERP<br>
@@ -274,16 +277,7 @@
 
 
      
-      <script
-      src="https://code.jquery.com/jquery-3.5.1.js"></script>
-      <script type="text/javascript">
-      
-      
-      $(".menu").click(function(){
-    $(".barl").slideToggle(".barl.active");
-   
-  });
+       
         
-    </script>
 </body>
 </html>

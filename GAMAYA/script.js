@@ -59,4 +59,11 @@ clearInterval(myTimer);
 myTimer = setInterval(function(){plusSlides(slideIndex)}, 2000);
 }
 
-  
+
+window.addEventListener("load",function() {
+$(document).ready(function(){
+  $("#menu").click(function(){
+    $("#barl").slideToggle("slow");
+  });
+});
+})
